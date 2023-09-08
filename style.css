@@ -1,12 +1,12 @@
-body{
+.background{
     background-color: rgba(106, 153, 186, 0.749);
 }
 
-html {
+.scroll {
     scroll-behavior:smooth;
 }
 
-h1 {
+.text-size {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,7 +21,7 @@ h1 {
     justify-content: center;
     align-items: center;
 }
-iframe{
+.size{
     width: 620px;
     height: 415px;
 }
@@ -43,15 +43,15 @@ iframe{
     background-color: rgba(0, 0, 0, 0.062);
 }
 
-a{
+.active{
     color: #787316;
 }
 
-a:visited{
+.active:visited{
     color: rgb(90, 149, 153);
 }
 
-a:hover{
+.active:hover{
     color: blueviolet;
 }
 
@@ -102,7 +102,7 @@ a:hover{
 .title{
     font-family: Brush Script MT;
     font-size: 20pt;
-    padding-top: 70px;
-    margin-right: 35em; 
+    padding-top: 1%;
+    margin-right:60%; 
 }
 
